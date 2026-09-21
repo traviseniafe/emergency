@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emergency Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Detection</h1>
+    <p>Listens and watches for signs of an emergency.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Backend</h2>
+      <div class="status">
+        <span id="status-dot" class="dot"></span>
+        <span id="status-text">Checking...</span>
+      </div>
+      <button id="recheck" type="button">Check again</button>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Audio</h2>
+        <p class="muted">Dangerous sound detection. Coming in Phase 2.</p>
+      </section>
+      <section class="card">
+        <h2>Camera</h2>
+        <p class="muted">Fire and smoke detection. Coming in Phase 3.</p>
+      </section>
+      <section class="card">
+        <h2>Speech</h2>
+        <p class="muted">Distress word detection. Coming in Phase 4.</p>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>Events</h2>
+      <p class="muted">Detected emergencies will appear here. Coming in Phase 5.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
