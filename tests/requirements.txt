@@ -1,0 +1,7 @@
+# Web backend
+fastapi
+uvicorn
+
+# Testing
+pytest
+httpx
