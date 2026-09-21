@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and local settings (never commit these)
+.env
+
+# Datasets and trained models: large, and licensed separately
+data/*
+!data/README.md
+models/*
+!models/README.md
+*.pth
+*.pt
+
+# macOS and editor clutter
+.DS_Store
+.vscode/
