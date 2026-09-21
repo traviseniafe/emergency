@@ -17,3 +17,4 @@ models/*
 # macOS and editor clutter
 .DS_Store
 .vscode/
+.venv/
