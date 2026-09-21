@@ -31,7 +31,7 @@ python3 -m pytest
 
 ## Roadmap
 
-- [] Phase 0: backend, frontend and tests connected
+- [ ] Phase 0: backend, frontend and tests connected
 - [ ] Phase 1: train the audio emergency-sound model
 - [ ] Phase 2: audio analysis through the API, with microphone and file upload in the browser
 - [ ] Phase 3: fire and smoke detection from camera frames
