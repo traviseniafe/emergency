@@ -100,3 +100,8 @@ button {
 button:hover {
   background: var(--border);
 }
+
+.card a {
+  color: #38bdf8;
+  margin-left: 12px;
+}
