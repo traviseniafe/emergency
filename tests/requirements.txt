@@ -5,3 +5,4 @@ uvicorn
 # Testing
 pytest
 httpx
+python-multipart
