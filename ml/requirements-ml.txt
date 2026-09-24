@@ -1,0 +1,5 @@
+pandas
+librosa
+matplotlib
+torch
+scikit-learn
