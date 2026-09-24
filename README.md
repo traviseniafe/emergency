@@ -38,3 +38,18 @@ python3 -m pytest
 - [ ] Phase 4: speech keyword detection
 - [ ] Phase 5: decision logic, event history and email alerts
 - [ ] Phase 6: Docker and documentation
+
+
+## Audio model results (v1)
+
+Trained on UrbanSound8K (folds 1-9) and SESA (train split), tested on
+UrbanSound8K fold 10 and SESA's test split.
+
+| Class | Precision | Recall | F1 |
+|---|---|---|---|
+| background | ... | ... | ... |
+| gunshot | ... | ... | ... |
+| siren | ... | ... | ... |
+| explosion | ... | ... | ... |
+
+![Confusion matrix](reports/confusion_matrix_v1.png)
